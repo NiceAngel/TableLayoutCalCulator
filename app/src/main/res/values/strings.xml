@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SimpleCalculator</string>
+    <string name="Add">더하기</string>
+    <string name="Sub">빼기</string>
+    <string name="Mul">곱하기</string>
+    <string name="Div">나누기</string>
+    <string name="Divx">나머지 값</string>
+    <string name="TextView">계산 결과</string>
+    <string name="Hint1">첫번째 숫자를 입력해주세요</string>
+    <string name="Hint2">두번째 숫자를 입력해주세요</string>
+</resources>

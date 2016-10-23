@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.duatp.tablelayoutcalculator.MainActivity">
+
+    <TableRow>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/Hint1"
+        android:id="@+id/Text1"
+        android:layout_span="5"
+        android:gravity="fill"
+        />
+
+</TableRow>
+    <TableRow>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Text2"
+            android:layout_span="5"
+            android:hint="@string/Hint2"
+            />
+
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/BtnNum0"
+            android:text="0"
+            android:layout_width="75dp" />
+        <Button
+            android:id="@+id/BtnNum1"
+            android:text="1"
+            android:layout_width="75dp" />
+        <Button
+            android:id="@+id/BtnNum2"
+            android:text="2"
+            android:layout_width="75dp" />
+        <Button
+            android:id="@+id/BtnNum3"
+            android:text="3"
+            android:layout_width="75dp" />
+        <Button
+            android:id="@+id/BtnNum4"
+            android:text="4"
+            android:layout_width="75dp" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/BtnNum5"
+            android:text="5"
+            android:layout_width="75dp" />
+        <Button
+            android:id="@+id/BtnNum6"
+            android:text="6"
+            android:layout_width="75dp" />
+        <Button
+            android:id="@+id/BtnNum7"
+            android:text="7"
+            android:layout_width="75dp" />
+        <Button
+            android:id="@+id/BtnNum8"
+            android:text="8"
+            android:layout_width="75dp" />
+        <Button
+            android:id="@+id/BtnNum9"
+            android:text="9"
+            android:layout_width="75dp" />
+    </TableRow>
+    <TableRow><Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Add"
+        android:id="@+id/Addbutton"
+        android:onClick="onAddClicked"
+        android:layout_span="5"/>
+    </TableRow>
+    <TableRow><Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Sub"
+        android:id="@+id/SubButton2"
+        android:onClick="onSubClicked"
+        android:layout_span="5"/>
+    </TableRow>
+    <TableRow><Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Mul"
+        android:id="@+id/MulButton3"
+        android:onClick="onMulClicked"
+        android:layout_span="5"/>
+    </TableRow>
+    <TableRow><Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Div"
+        android:id="@+id/DivButton4"
+        android:onClick="onDivClicked"
+        android:layout_span="5"/>
+    </TableRow>
+    <TableRow><TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TextView"
+        android:id="@+id/TextView"
+        android:textSize="30dp"
+        android:layout_span="5"/>
+    </TableRow>
+
+
+</TableLayout>
